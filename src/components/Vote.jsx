@@ -19,7 +19,7 @@ export default React.createClass({
                     <h1>{entry}</h1>
                     {this.hasVotedFor(entry) ? <div className="label">Voted</div> : null}
                 </button>
-            )};
+            )}
         </div>
     }
 });
